@@ -1,0 +1,12 @@
+[package]
+name = "slashes"
+version = "0.1.0"
+edition = "2021"
+repository = "https://github.com/nph278/slashes-rs"
+homepage = "https://github.com/nph278/slashes-rs"
+description = "A /// interpreter written in Rust"
+license = "MIT"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
