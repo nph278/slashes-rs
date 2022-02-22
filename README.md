@@ -1,6 +1,6 @@
 # slashes-rs
 
-A [///](esolangs.org/wiki////) interpreter written in Rust.
+A [///](https://esolangs.org/wiki////) interpreter written in Rust.
 
 ## Installation
 
