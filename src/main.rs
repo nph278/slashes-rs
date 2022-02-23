@@ -34,9 +34,10 @@ fn run(input: &str) -> Result<(), ()> {
             Mode::Replacement(p, r) => match program.pop().ok_or(())? {
                 '/' => {
                     while program.contains(&p.chars().rev().collect::<String>()) {
-                        program = program.replace(
+                        program = program.replacen(
                             &p.chars().rev().collect::<String>(),
                             &r.chars().rev().collect::<String>(),
+                            1,
                         );
                     }
                     mode = Mode::Print;
